@@ -1,0 +1,1004 @@
+2020-05-22 16:46:38,460 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.sentineldemo.SentinelDemoApplicationTests], using SpringBootContextLoader
+2020-05-22 16:46:38,471 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.example.sentineldemo.SentinelDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-05-22 16:46:38,479 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] Could not detect default configuration classes for test class [com.example.sentineldemo.SentinelDemoApplicationTests]: SentinelDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-05-22 16:46:38,642 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:237] Found @SpringBootConfiguration com.example.sentineldemo.SentinelDemoApplication for test class com.example.sentineldemo.SentinelDemoApplicationTests
+2020-05-22 16:46:38,778 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-05-22 16:46:38,793 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:177] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6702dde, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@390ad3a6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@77d7823, org.springframework.test.context.support.DirtiesContextTestExecutionListener@590392ed, org.springframework.test.context.event.EventPublishingTestExecutionListener@5e9a4ace, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@31623558, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5db2ef37, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@18e38a96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@14a36f7e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@344b5047, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e4acaae]
+2020-05-22 16:46:39,194 [Test worker] INFO com.example.sentineldemo.SentinelDemoApplicationTests [StartupInfoLogger.java:55] Starting SentinelDemoApplicationTests on DESKTOP-BVLKBNG with PID 1336 (started by petzold in C:\Users\petzold\IdeaProjects\sentinel-demo)
+2020-05-22 16:46:39,201 [Test worker] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-05-22 16:46:41,438 [Test worker] INFO com.example.sentineldemo.SentinelDemoApplicationTests [StartupInfoLogger.java:61] Started SentinelDemoApplicationTests in 2.591 seconds (JVM running for 4.634)
+2020-05-22 16:46:47,339 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] hello world 1 delay 494
+2020-05-22 16:46:48,791 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] hello world 1 delay 1422
+2020-05-22 16:46:49,652 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] hello world 1 delay 855
+2020-05-22 16:46:50,910 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] hello world 1 delay 1254
+2020-05-22 16:46:50,956 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] hello world 1 delay 40
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 6
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 7
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 8
+2020-05-22 16:46:50,990 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 9
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 10
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 11
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,991 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 12
+2020-05-22 16:46:50,992 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,992 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 13
+2020-05-22 16:46:50,992 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,992 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 14
+2020-05-22 16:46:50,992 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,992 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 15
+2020-05-22 16:46:50,993 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,993 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 16
+2020-05-22 16:46:50,993 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,993 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 17
+2020-05-22 16:46:50,993 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,993 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 18
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 19
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 20
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 21
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,994 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 22
+2020-05-22 16:46:50,996 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,996 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 23
+2020-05-22 16:46:50,996 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,996 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 24
+2020-05-22 16:46:50,996 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,996 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 25
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 26
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 27
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 28
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,997 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 29
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 30
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 31
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 32
+2020-05-22 16:46:50,998 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,999 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 33
+2020-05-22 16:46:50,999 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,999 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 34
+2020-05-22 16:46:50,999 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:50,999 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 35
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 36
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 37
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 38
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,000 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 39
+2020-05-22 16:46:51,001 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,001 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 40
+2020-05-22 16:46:51,001 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 41
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 42
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 43
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 44
+2020-05-22 16:46:51,002 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 45
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 46
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 47
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,003 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 48
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 49
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 50
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 51
+2020-05-22 16:46:51,004 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 52
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 53
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 54
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 55
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 56
+2020-05-22 16:46:51,005 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 57
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 58
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 59
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 60
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,006 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 61
+2020-05-22 16:46:51,007 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,007 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 62
+2020-05-22 16:46:51,007 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,007 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 63
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 64
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 65
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 66
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,008 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 67
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 68
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 69
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 70
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,009 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 71
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 72
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 73
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 74
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 75
+2020-05-22 16:46:51,010 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 76
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 77
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 78
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 79
+2020-05-22 16:46:51,011 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,012 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 80
+2020-05-22 16:46:51,013 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,013 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 81
+2020-05-22 16:46:51,013 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,013 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 82
+2020-05-22 16:46:51,013 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 83
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 84
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 85
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 86
+2020-05-22 16:46:51,014 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 87
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 88
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 89
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 90
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 91
+2020-05-22 16:46:51,015 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 92
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 93
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 94
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 95
+2020-05-22 16:46:51,016 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,017 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 96
+2020-05-22 16:46:51,017 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,017 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 97
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 98
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 99
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 100
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,018 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 101
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 102
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 103
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 104
+2020-05-22 16:46:51,019 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 105
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 106
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 107
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 108
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,020 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 109
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 110
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 111
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 112
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 113
+2020-05-22 16:46:51,021 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 114
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 115
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 116
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 117
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 118
+2020-05-22 16:46:51,022 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 119
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 120
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 121
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 122
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,023 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 123
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 124
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 125
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 126
+2020-05-22 16:46:51,024 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 127
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 128
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 129
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,025 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 130
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 131
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 132
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 133
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 134
+2020-05-22 16:46:51,026 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 135
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 136
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 137
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 138
+2020-05-22 16:46:51,027 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,028 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 139
+2020-05-22 16:46:51,028 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,028 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 140
+2020-05-22 16:46:51,028 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,028 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 141
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 142
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 143
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 144
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,029 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 145
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 146
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 147
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 148
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,030 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 149
+2020-05-22 16:46:51,031 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,031 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 150
+2020-05-22 16:46:51,031 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 151
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 152
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 153
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 154
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,032 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 155
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 156
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 157
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 158
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 159
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,033 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 160
+2020-05-22 16:46:51,034 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,034 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 161
+2020-05-22 16:46:51,034 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,034 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 162
+2020-05-22 16:46:51,035 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,035 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 163
+2020-05-22 16:46:51,035 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,035 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 164
+2020-05-22 16:46:51,035 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,036 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 165
+2020-05-22 16:46:51,036 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,036 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 166
+2020-05-22 16:46:51,036 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,036 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 167
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 168
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 169
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 170
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,037 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 171
+2020-05-22 16:46:51,038 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,038 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 172
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 173
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 174
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 175
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 176
+2020-05-22 16:46:51,039 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 177
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 178
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 179
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 180
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,040 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 181
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 182
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 183
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 184
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,041 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 185
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 186
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 187
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 188
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 189
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,042 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 190
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 191
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 192
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 193
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,043 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 194
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 195
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 196
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 197
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,044 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 198
+2020-05-22 16:46:51,045 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,046 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 199
+2020-05-22 16:46:51,046 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,046 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 200
+2020-05-22 16:46:51,046 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,046 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 201
+2020-05-22 16:46:51,047 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,047 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 202
+2020-05-22 16:46:51,047 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,047 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 203
+2020-05-22 16:46:51,047 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,047 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 204
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 205
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 206
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 207
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 208
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,048 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 209
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 210
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 211
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 212
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 213
+2020-05-22 16:46:51,049 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 214
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 215
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 216
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 217
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 218
+2020-05-22 16:46:51,050 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 219
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 220
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 221
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 222
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 223
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,051 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 224
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 225
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 226
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 227
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 228
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,052 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 229
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 230
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 231
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 232
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 233
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 234
+2020-05-22 16:46:51,053 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 235
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 236
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 237
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 238
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 239
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,054 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 240
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 241
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 242
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 243
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 244
+2020-05-22 16:46:51,055 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 245
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 246
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 247
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 248
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,056 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 249
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 250
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 251
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 252
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,057 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 253
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 254
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 255
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 256
+2020-05-22 16:46:51,058 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 257
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 258
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 259
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 260
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 261
+2020-05-22 16:46:51,059 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 262
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 263
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 264
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 265
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,060 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 266
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 267
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 268
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 269
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 270
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,061 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 271
+2020-05-22 16:46:51,062 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,062 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 272
+2020-05-22 16:46:51,062 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,062 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 273
+2020-05-22 16:46:51,062 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 274
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 275
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 276
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 277
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 278
+2020-05-22 16:46:51,063 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 279
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 280
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 281
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 282
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,064 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 283
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 284
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 285
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 286
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 287
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 288
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,065 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 289
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 290
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 291
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 292
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 293
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,066 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 294
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 295
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 296
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 297
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,067 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 298
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 299
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 300
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 301
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 302
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,068 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 303
+2020-05-22 16:46:51,069 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,069 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 304
+2020-05-22 16:46:51,069 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,069 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 305
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 306
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 307
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 308
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 309
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,070 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 310
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 311
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 312
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 313
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 314
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,071 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 315
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 316
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 317
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 318
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 319
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,072 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 320
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 321
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 322
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 323
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 324
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,073 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 325
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 326
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 327
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 328
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 329
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 330
+2020-05-22 16:46:51,074 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 331
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 332
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 333
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 334
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 335
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,075 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 336
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 337
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 338
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 339
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 340
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,076 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 341
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 342
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 343
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 344
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 345
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 346
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,077 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 347
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 348
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 349
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 350
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,078 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 351
+2020-05-22 16:46:51,079 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,079 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 352
+2020-05-22 16:46:51,079 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,079 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 353
+2020-05-22 16:46:51,079 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,079 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 354
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 355
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 356
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 357
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 358
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 359
+2020-05-22 16:46:51,080 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 360
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 361
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 362
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 363
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 364
+2020-05-22 16:46:51,081 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 365
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 366
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 367
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 368
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 369
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 370
+2020-05-22 16:46:51,082 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 371
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 372
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 373
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 374
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 375
+2020-05-22 16:46:51,083 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 376
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 377
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 378
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 379
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 380
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,084 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 381
+2020-05-22 16:46:51,085 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 382
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 383
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 384
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 385
+2020-05-22 16:46:51,086 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,087 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 386
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 387
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 388
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 389
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 390
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,088 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 391
+2020-05-22 16:46:51,089 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,089 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 392
+2020-05-22 16:46:51,089 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,089 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 393
+2020-05-22 16:46:51,089 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,089 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 394
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 395
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 396
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 397
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 398
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 399
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,090 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 400
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 401
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 402
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 403
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 404
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 405
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,091 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 406
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 407
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 408
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 409
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 410
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 411
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,092 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 412
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 413
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 414
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 415
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,093 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 416
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 417
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 418
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 419
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 420
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 421
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,094 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 422
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 423
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 424
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 425
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 426
+2020-05-22 16:46:51,095 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 427
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 428
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 429
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 430
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 431
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 432
+2020-05-22 16:46:51,096 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 433
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 434
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 435
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 436
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 437
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,097 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 438
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 439
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 440
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 441
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 442
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 443
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,098 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 444
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 445
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 446
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 447
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 448
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 449
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,099 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 450
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 451
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 452
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 453
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 454
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 455
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 456
+2020-05-22 16:46:51,100 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,101 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 457
+2020-05-22 16:46:51,101 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 458
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 459
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 460
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 461
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 462
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 463
+2020-05-22 16:46:51,102 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 464
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 465
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 466
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 467
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 468
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 469
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,103 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 470
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 471
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 472
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 473
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 474
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 475
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,104 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 476
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 477
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 478
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 479
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 480
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 481
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,105 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 482
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 483
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 484
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 485
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 486
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 487
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 488
+2020-05-22 16:46:51,106 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 489
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 490
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 491
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 492
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 493
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 494
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,107 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 495
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 496
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 497
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 498
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 499
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:46] request 1 err: DegradeException
+2020-05-22 16:46:51,108 [Test worker @coroutine#1] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SentinelDemoApplicationTests.kt:119] one 500

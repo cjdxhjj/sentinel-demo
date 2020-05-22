@@ -1,0 +1,107 @@
+2020-05-22 15:57:12,240 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:308] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.sentineldemo.SentinelDemoApplicationTests], using SpringBootContextLoader
+2020-05-22 15:57:12,250 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader [AbstractContextLoader.java:264] Could not detect default resource locations for test class [com.example.sentineldemo.SentinelDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-05-22 15:57:12,258 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [AnnotationConfigContextLoaderUtils.java:83] Could not detect default configuration classes for test class [com.example.sentineldemo.SentinelDemoApplicationTests]: SentinelDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-05-22 15:57:12,406 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [SpringBootTestContextBootstrapper.java:237] Found @SpringBootConfiguration com.example.sentineldemo.SentinelDemoApplication for test class com.example.sentineldemo.SentinelDemoApplicationTests
+2020-05-22 15:57:12,547 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:248] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-05-22 15:57:12,560 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [AbstractTestContextBootstrapper.java:177] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70bd6ac1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@17d9f7a7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1dc0a27d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@60cda6e6, org.springframework.test.context.event.EventPublishingTestExecutionListener@7bbd335c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@23019743, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3b4a1a14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@363d710d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@24889345, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@b9ca318, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@606d92c5]
+2020-05-22 15:57:12,951 [Test worker] INFO com.example.sentineldemo.SentinelDemoApplicationTests [StartupInfoLogger.java:55] Starting SentinelDemoApplicationTests on DESKTOP-BVLKBNG with PID 16576 (started by petzold in C:\Users\petzold\IdeaProjects\sentinel-demo)
+2020-05-22 15:57:12,952 [Test worker] INFO com.example.sentineldemo.SentinelDemoApplicationTests [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-05-22 15:57:14,817 [Test worker] INFO com.example.sentineldemo.SentinelDemoApplicationTests [StartupInfoLogger.java:61] Started SentinelDemoApplicationTests in 2.209 seconds (JVM running for 4.011)
+2020-05-22 16:00:24,622 [DefaultDispatcher-worker-3 @coroutine#193] ERROR com.example.sentineldemo.client.RestClient [RestClient.kt:26] request 2 err: 
+com.alibaba.csp.sentinel.ErrorEntryFreeException: The order of entry exit can't be paired with the order of entry, current entry in context: <test1>, but expected: <test2>
+	at com.alibaba.csp.sentinel.CtEntry.exitForContext(CtEntry.java:80)
+	at com.alibaba.csp.sentinel.CtEntry.trueExit(CtEntry.java:108)
+	at com.alibaba.csp.sentinel.CtEntry.exit(CtEntry.java:61)
+	at com.alibaba.csp.sentinel.Entry.exit(Entry.java:79)
+	at com.alibaba.csp.sentinel.Entry.close(Entry.java:93)
+	at kotlin.jdk7.AutoCloseableKt.closeFinally(AutoCloseable.kt:56)
+	at com.example.sentineldemo.shared.PrefExtensionKt.sentinel(PrefExtension.kt:6)
+	at com.example.sentineldemo.shared.PrefExtensionKt$sentinel$1.invokeSuspend(PrefExtension.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:56)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2020-05-22 16:01:24,554 [DefaultDispatcher-worker-3 @coroutine#261] ERROR com.example.sentineldemo.client.RestClient [RestClient.kt:26] request 2 err: 
+com.alibaba.csp.sentinel.ErrorEntryFreeException: The order of entry exit can't be paired with the order of entry, current entry in context: <test1>, but expected: <test2>
+	at com.alibaba.csp.sentinel.CtEntry.exitForContext(CtEntry.java:80)
+	at com.alibaba.csp.sentinel.CtEntry.trueExit(CtEntry.java:108)
+	at com.alibaba.csp.sentinel.CtEntry.exit(CtEntry.java:61)
+	at com.alibaba.csp.sentinel.Entry.exit(Entry.java:79)
+	at com.alibaba.csp.sentinel.Entry.close(Entry.java:93)
+	at kotlin.jdk7.AutoCloseableKt.closeFinally(AutoCloseable.kt:56)
+	at com.example.sentineldemo.shared.PrefExtensionKt.sentinel(PrefExtension.kt:6)
+	at com.example.sentineldemo.shared.PrefExtensionKt$sentinel$1.invokeSuspend(PrefExtension.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:56)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2020-05-22 16:02:19,469 [DefaultDispatcher-worker-2 @coroutine#319] ERROR com.example.sentineldemo.client.RestClient [RestClient.kt:26] request 2 err: 
+com.alibaba.csp.sentinel.ErrorEntryFreeException: The order of entry exit can't be paired with the order of entry, current entry in context: <test1>, but expected: <test2>
+	at com.alibaba.csp.sentinel.CtEntry.exitForContext(CtEntry.java:80)
+	at com.alibaba.csp.sentinel.CtEntry.trueExit(CtEntry.java:108)
+	at com.alibaba.csp.sentinel.CtEntry.exit(CtEntry.java:61)
+	at com.alibaba.csp.sentinel.Entry.exit(Entry.java:79)
+	at com.alibaba.csp.sentinel.Entry.close(Entry.java:93)
+	at kotlin.jdk7.AutoCloseableKt.closeFinally(AutoCloseable.kt:56)
+	at com.example.sentineldemo.shared.PrefExtensionKt.sentinel(PrefExtension.kt:6)
+	at com.example.sentineldemo.shared.PrefExtensionKt$sentinel$1.invokeSuspend(PrefExtension.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:56)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2020-05-22 16:02:28,685 [DefaultDispatcher-worker-5 @coroutine#330] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:15] request 1 err: DegradeException
+2020-05-22 16:02:30,321 [DefaultDispatcher-worker-3 @coroutine#332] INFO com.example.sentineldemo.client.RestClient [RestClient.kt:15] request 1 err: DegradeException
+2020-05-22 16:02:40,232 [DefaultDispatcher-worker-4 @coroutine#343] ERROR com.example.sentineldemo.client.RestClient [RestClient.kt:26] request 2 err: 
+com.alibaba.csp.sentinel.ErrorEntryFreeException: The order of entry exit can't be paired with the order of entry, current entry in context: <test1>, but expected: <test2>
+	at com.alibaba.csp.sentinel.CtEntry.exitForContext(CtEntry.java:80)
+	at com.alibaba.csp.sentinel.CtEntry.trueExit(CtEntry.java:108)
+	at com.alibaba.csp.sentinel.CtEntry.exit(CtEntry.java:61)
+	at com.alibaba.csp.sentinel.Entry.exit(Entry.java:79)
+	at com.alibaba.csp.sentinel.Entry.close(Entry.java:93)
+	at kotlin.jdk7.AutoCloseableKt.closeFinally(AutoCloseable.kt:56)
+	at com.example.sentineldemo.shared.PrefExtensionKt.sentinel(PrefExtension.kt:6)
+	at com.example.sentineldemo.shared.PrefExtensionKt$sentinel$1.invokeSuspend(PrefExtension.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:56)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2020-05-22 16:04:05,568 [DefaultDispatcher-worker-4 @coroutine#431] ERROR com.example.sentineldemo.client.RestClient [RestClient.kt:26] request 2 err: 
+com.alibaba.csp.sentinel.ErrorEntryFreeException: The order of entry exit can't be paired with the order of entry, current entry in context: <test1>, but expected: <test2>
+	at com.alibaba.csp.sentinel.CtEntry.exitForContext(CtEntry.java:80)
+	at com.alibaba.csp.sentinel.CtEntry.trueExit(CtEntry.java:108)
+	at com.alibaba.csp.sentinel.CtEntry.exit(CtEntry.java:61)
+	at com.alibaba.csp.sentinel.Entry.exit(Entry.java:79)
+	at com.alibaba.csp.sentinel.Entry.close(Entry.java:93)
+	at kotlin.jdk7.AutoCloseableKt.closeFinally(AutoCloseable.kt:56)
+	at com.example.sentineldemo.shared.PrefExtensionKt.sentinel(PrefExtension.kt:6)
+	at com.example.sentineldemo.shared.PrefExtensionKt$sentinel$1.invokeSuspend(PrefExtension.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:56)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+2020-05-22 16:04:19,841 [DefaultDispatcher-worker-4 @coroutine#443] ERROR com.example.sentineldemo.client.RestClient [RestClient.kt:26] request 2 err: 
+com.alibaba.csp.sentinel.ErrorEntryFreeException: The order of entry exit can't be paired with the order of entry, current entry in context: <test1>, but expected: <test2>
+	at com.alibaba.csp.sentinel.CtEntry.exitForContext(CtEntry.java:80)
+	at com.alibaba.csp.sentinel.CtEntry.trueExit(CtEntry.java:108)
+	at com.alibaba.csp.sentinel.CtEntry.exit(CtEntry.java:61)
+	at com.alibaba.csp.sentinel.Entry.exit(Entry.java:79)
+	at com.alibaba.csp.sentinel.Entry.close(Entry.java:93)
+	at kotlin.jdk7.AutoCloseableKt.closeFinally(AutoCloseable.kt:56)
+	at com.example.sentineldemo.shared.PrefExtensionKt.sentinel(PrefExtension.kt:6)
+	at com.example.sentineldemo.shared.PrefExtensionKt$sentinel$1.invokeSuspend(PrefExtension.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:56)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)

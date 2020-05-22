@@ -1,0 +1,8 @@
+2020-05-22 16:15:25,717 [main] INFO com.example.sentineldemo.SentinelDemoApplicationKt [StartupInfoLogger.java:55] Starting SentinelDemoApplicationKt on DESKTOP-BVLKBNG with PID 3444 (C:\Users\petzold\IdeaProjects\sentinel-demo\build\classes\kotlin\main started by petzold in C:\Users\petzold\IdeaProjects\sentinel-demo)
+2020-05-22 16:15:25,720 [main] INFO com.example.sentineldemo.SentinelDemoApplicationKt [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-05-22 16:15:27,786 [main] INFO org.springframework.boot.web.embedded.netty.NettyWebServer [NettyWebServer.java:109] Netty started on port(s): 8080
+2020-05-22 16:15:27,813 [main] INFO com.example.sentineldemo.SentinelDemoApplicationKt [StartupInfoLogger.java:61] Started SentinelDemoApplicationKt in 2.421 seconds (JVM running for 3.028)
+2020-05-22 16:59:01,036 [main] INFO com.example.sentineldemo.SentinelDemoApplicationKt [StartupInfoLogger.java:55] Starting SentinelDemoApplicationKt on DESKTOP-BVLKBNG with PID 21092 (C:\Users\petzold\IdeaProjects\sentinel-demo\build\classes\kotlin\main started by petzold in C:\Users\petzold\IdeaProjects\sentinel-demo)
+2020-05-22 16:59:01,039 [main] INFO com.example.sentineldemo.SentinelDemoApplicationKt [SpringApplication.java:651] No active profile set, falling back to default profiles: default
+2020-05-22 16:59:03,054 [main] INFO org.springframework.boot.web.embedded.netty.NettyWebServer [NettyWebServer.java:109] Netty started on port(s): 8080
+2020-05-22 16:59:03,073 [main] INFO com.example.sentineldemo.SentinelDemoApplicationKt [StartupInfoLogger.java:61] Started SentinelDemoApplicationKt in 2.375 seconds (JVM running for 2.988)
